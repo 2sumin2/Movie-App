@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/Moive-App.git/static/js/main.ff6daf4d.js",
-    "index.html": "/Moive-App.git/index.html",
-    "main.ff6daf4d.js.map": "/Moive-App.git/static/js/main.ff6daf4d.js.map"
+    "main.js": "/Movie-App/static/js/main.f4c809c3.js",
+    "index.html": "/Movie-App/index.html",
+    "main.f4c809c3.js.map": "/Movie-App/static/js/main.f4c809c3.js.map"
   },
   "entrypoints": [
-    "static/js/main.ff6daf4d.js"
+    "static/js/main.f4c809c3.js"
   ]
 }
