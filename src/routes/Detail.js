@@ -33,7 +33,10 @@ function Detail() {
                         year={movie.year}
                         rating={movie.rating}
                         description={movie.description_full}
-                        genres={movie.genres} />
+                        genres={movie.genres}
+                        code={movie.yt_trailer_code}
+                        cast={movie.cast}
+                    />
                 )}
         </div>
     );
@@ -41,24 +44,7 @@ function Detail() {
 export default Detail;
 
 /**
- * <div>
-                        <img src={movie.medium_cover_image} alt={movie.title} />
-                        <h1>{movie.title}</h1>
-                        <h3>{movie.year}</h3>
-                        <h3>{movie.rating}</h3>
-                        <p>{movie.description_full}</p>
-                        <ul>{movie.genres && movie.genres.map(genre => {
-                            return <li key={genre}>{genre}</li>;
-                        })}
-                        </ul>
-                    </div>
- * <MovieDetail
-                        key={movie.id}
-                        title={movie.title}
-                        year={movie.year}
-                        rating={movie.rating}
-                        description={movie.description_full}
-                        genres={movie.genres} />
+ * "https://www.youtube.com/embed/4kdtrChdosE?rel=0&mode=transparent&border=0&autoplay=1&iv_load_policy=3"
  {
      "status":"ok",
      "status_message":"Query was successful", 
