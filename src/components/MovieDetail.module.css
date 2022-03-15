@@ -1,0 +1,55 @@
+html{
+    background-color: black;
+}
+.movieDetail{
+    height:100%;
+    background-color: black;
+    color:rgb(250, 247, 232);
+}
+.trailer{
+    display:flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.movieInfo{
+    background-color: #811515;
+    padding:130px;
+    display: grid;
+    grid-template-columns: minmax(500px, 1fr) 2fr;
+    grid-gap: 100px;
+}
+.movieImg {
+    margin-left:50px;
+    box-shadow: 20px 30px 50px 5px rgba(75, 71, 42, 0.2),
+    0 8px 50px 5px rgba(0, 0, 0, 0.3);
+}
+.title{
+font-size: 30pt;
+}
+.genre{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0px;
+}
+.genre li{
+    margin-right: 10px;
+    font-size: 14px;
+}
+.cast{
+    margin-top:40px;
+}
+.cast div{
+    padding: 10px 0;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-gap: 20px;
+}
+.cast div img{
+    width: 50px;
+    border-radius: 50px;
+}
