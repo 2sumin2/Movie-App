@@ -33,11 +33,10 @@ function MovieDetail({ coverImg, title, year, rating, description, genres, code,
             <div className={styles.trailer}>
                 <ReactPlayer
                     url={`https://www.youtube.com/embed/${code}?`}
-                    playing={true}
                     pip={true}
                     controls
-                    muted
                     loop
+                    muted
                     width={1920}
                     height={1080} />
             </div>
