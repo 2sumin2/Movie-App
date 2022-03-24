@@ -21,7 +21,7 @@ function MovieDetail({ coverImg, title, year, rating, description, genres, code,
                     {cast && <div className={styles.cast}>Cast : {cast.map((person) => {
                         return (
                             <div key={person.name}>
-                                <img src={person.url_small_image} />
+                                <img src={person.url_small_image} alt={title} />
                                 <p>{person.name} / {person.character_name}</p>
                             </div>
                         );
